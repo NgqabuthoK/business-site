@@ -74,11 +74,11 @@
                         </h2>
                                    
                    <p data-scroll-reveal="enter from the bottom after 0.8s">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Nulla pretium lectus vel Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Nulla pretium lectus vel Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         
+                To have an effect you need to be where the people are, to win at this game you need to get online and play.
+                        In steps a young, dynamic and vibrant team of software and web developers.
+                       As a software and web development company we strive to help SMMEs bridge the technological divide. How?
+                        By providing all the services necessary to create, maintain and profit from a digital footprint.
+                            
                        </p>
                      
                   <br />
