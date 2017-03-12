@@ -74,9 +74,9 @@
                         </h2>
                                    
                    <p data-scroll-reveal="enter from the bottom after 0.8s">
-                To have an effect you need to be where the people are, to win at this game you need to get online and play.
-                        In steps a young, dynamic and vibrant team of software and web developers.
-                       As a software and web development company we strive to help SMMEs bridge the technological divide. How?
+                To have an effect you need to be where the people are, to win at this game you need to get online and play.<br/>
+                 In steps a young, dynamic and vibrant team of software and web developers.Armed with an arsenal of the latest tech trends, skills and expertise. <br />
+                       As a software and web development company we strive to help SMMEs bridge the technological divide. How?<br />
                         By providing all the services necessary to create, maintain and profit from a digital footprint.
                             
                        </p>
@@ -114,11 +114,11 @@
               <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the left after 0.4s" >
                         <div class="media">
                             <div class="pull-left">
-                                <i class=" fa fa-history fa-5x " style="color:"></i>
+                                <i class=" fa fa-mobile fa-5x " style="color:"></i>
 
                             </div>
                             <div class="media-body">
-                                <h4 class="media-heading"><strong> Responsive Layout </strong></h4>
+                                <h4 class="media-heading"><strong> Mobile Optimization </strong></h4>
                                 <p>
                                     Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
                                 Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
@@ -130,11 +130,11 @@
                <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the right after 0.7s">
                         <div class="media">
                             <div class="pull-left">
-                                <i class=" fa fa-ra fa-5x " style="color:"></i>
+                                <i class=" fa fa-history fa-5x " style="color:"></i>
 
                             </div>
                             <div class="media-body">
-                                <h4 class="media-heading"><strong> Easy Customization </strong></h4>
+                                <h4 class="media-heading"><strong> Hosting </strong></h4>
                                 <p>
                                     Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
                                 Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
@@ -148,8 +148,8 @@
                 <div class="row text-center just-pad" >
            
               <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.2s" >
-                        <i class=" fa fa-database fa-5x " style="color:"></i>
-                   <h4 ><strong> Easy Understanding </strong></h4>
+                        <i class=" fa fa-medkit fa-5x " style="color:"></i>
+                   <h4 ><strong>Support & Maintenance</strong></h4>
                   <p>
                       Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
                                 Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
@@ -157,16 +157,16 @@
                     </div>
                
                <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.8s" >
-                        <i class=" fa fa-send fa-5x " style="color:"></i>
-                   <h4 ><strong> Awesomeness Loaded </strong></h4>
+                        <i class=" fa fa-sitemap fa-5x " style="color:"></i>
+                   <h4 ><strong> Detailed Solutions </strong></h4>
                   <p>
                       Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
                                 Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
                   </p>
                     </div>
                      <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 1.4s" >
-                        <i class=" fa fa-puzzle-piece fa-5x " style="color:"></i>
-                          <h4 ><strong> Freely Available </strong></h4>
+                        <i class=" fa fa-cubes fa-5x " style="color:"></i>
+                          <h4 ><strong> Step-by-step Guide </strong></h4>
                   <p>
                       Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
                                 Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
@@ -179,7 +179,7 @@
               <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the left after 0.4s" >
                         <div class="media">
                             <div class="pull-left">
-                                <i class=" fa fa-history fa-5x " style="color:"></i>s                         
+                                <i class=" fa fa-cogs fa-5x " style="color:"></i>                         
 
                             </div>
                             <div class="media-body">
@@ -199,7 +199,7 @@
 
                             </div>
                             <div class="media-body">
-                                <h4 class="media-heading"><strong> Easy Customization </strong></h4>
+                                <h4 class="media-heading"><strong> Search Engine Optimization </strong></h4>
                                 <p>
                                     Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
                                 Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
