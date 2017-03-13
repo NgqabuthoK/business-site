@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -120,8 +120,7 @@
                             <div class="media-body">
                                 <h4 class="media-heading"><strong> Mobile Optimization </strong></h4>
                                 <p>
-                                    Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
-                                Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
+                                    Let us transform your website into a modern, engaging and mobile gateway that does not lose it's brilliance whether on a smartphone, tablet or computer.
                                 </p>
 
                             </div>
@@ -136,8 +135,7 @@
                             <div class="media-body">
                                 <h4 class="media-heading"><strong> Hosting </strong></h4>
                                 <p>
-                                    Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
-                                Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
+                                    You can take the hassle of web hosting away and give yourself more time to focus on what you are about - your business, your inspiration, your life.
                                 </p>
 
                             </div>
@@ -151,6 +149,7 @@
                         <i class=" fa fa-medkit fa-5x " style="color:"></i>
                    <h4 ><strong>Support & Maintenance</strong></h4>
                   <p>
+                      <!--Perhaps we should merge this service with the Step-by-step Guide? I feel that they are a great deal related-->
                       Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
                                 Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
                   </p>
@@ -160,21 +159,21 @@
                         <i class=" fa fa-sitemap fa-5x " style="color:"></i>
                    <h4 ><strong> Detailed Solutions </strong></h4>
                   <p>
-                      Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
-                                Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
+                      Solutions that are in harmony with your business. 
+                                Solutions that are agile. Solutions that are perfect for you.
                   </p>
                     </div>
                      <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 1.4s" >
                         <i class=" fa fa-cubes fa-5x " style="color:"></i>
                           <h4 ><strong> Step-by-step Guide </strong></h4>
                   <p>
-                      Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
-                                Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
+                      A reference that helps in those frustrated moments. Documentation that effectively describes the minute details of your solution. 
+                                <!--We provide you with all that is required to not only manage your solution but also customize it further.-->
                   </p>
                     </div>
             </div>
      <!--Added row of service features-->
-          <div class="row " >
+         <!-- <div class="row " >
            
               <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the left after 0.4s" >
                         <div class="media">
@@ -210,7 +209,7 @@
                     </div>
               
             </div>
-               </div>
+               </div>-->
            
        </section>
     <!--FEATURES SECTION END-->
@@ -274,29 +273,17 @@
                <img src="assets/img/graduation.png" class="img-circle img-responsive" alt=""  />
                    <h4 ><strong> Khethelo Maphumulo </strong></h4>
                   <i>Co-Founder & Business Manager</i>
-                  <p>
-                      Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
-                  </p>
-                
                     </div>
                
                <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the left after 0.2s" >
                         <img src="assets/img/graduation.png" class="img-circle img-responsive" alt=""  />
                    <h4 ><strong>Lungani Mkhize</strong></h4>
                    <i>Co-Founder & Developer</i>
-                  <p>
-                      Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
-                  </p>
-                  
                     </div>
                      <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the right after 0.2s" >
                         <img src="assets/img/graduation.png" class="img-circle img-responsive" alt=""  />
                           <h4 ><strong> Kith Mhlanga </strong></h4>
                          <i>Co-Founder & Developer</i>
-                  <p>
-                      Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
-                  </p>
-                      
                     </div>
             </div>
                </div>
@@ -414,4 +401,3 @@
    </form>
 </body>
 </html>
-
