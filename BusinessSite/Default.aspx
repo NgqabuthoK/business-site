@@ -150,8 +150,11 @@
                    <h4 ><strong>Support & Maintenance</strong></h4>
                   <p>
                       <!--Perhaps we should merge this service with the Step-by-step Guide? I feel that they are a great deal related-->
-                      Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
-                                Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
+                       <!--Not necessarily. The Step-by-Step guide ends the moment we finish the project.-->
+                     With 24/7 availability let our team work hard to ensure that your website is always kept in pristine condition.
+                      Have questions? Need some clarity? We will gladly take care of any worry you have, find a solution and see it through to
+                      your satisfaction.
+      
                   </p>
                     </div>
                
@@ -168,10 +171,36 @@
                           <h4 ><strong> Step-by-step Guide </strong></h4>
                   <p>
                       A reference that helps in those frustrated moments. Documentation that effectively describes the minute details of your solution. 
-                                <!--We provide you with all that is required to not only manage your solution but also customize it further.-->
+                          We provide you with all that is required to not only manage your solution but also customize it further.
+                       <!--The line above makes great sense. It should be there.-->
                   </p>
                     </div>
             </div>
+
+     <div class="row" >
+
+         <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the right after 0.7s">
+                        <div class="media">
+                            <div class="pull-left">
+                                <i class=" fa fa-globe fa-5x " style="color:"></i>                             
+
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading"><strong> Search Engine Optimization </strong></h4>
+                                <p>
+                                  The fastest way for your website to be known and frequently visited? Is through Search. Our team will
+                                    develop your website using the latest standards required for it to have a high
+                                    search ranking, organically.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+              
+            </div>
+
+
+     </div>
      <!--Added row of service features-->
          <!-- <div class="row " >
            
@@ -272,7 +301,7 @@
                         
                <img src="assets/img/graduation.png" class="img-circle img-responsive" alt=""  />
                    <h4 ><strong> Khethelo Maphumulo </strong></h4>
-                  <i>Co-Founder & Business Manager</i>
+                  <i>Business Manager</i>
                     </div>
                
                <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the left after 0.2s" >
@@ -335,7 +364,7 @@
                 
                </div>
         
-             <div class="row">
+             <div class="row" runat="server">
                  <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the right after 0.2s">
                     <strong>ADDRESS :</strong>
                         <p>
@@ -350,28 +379,31 @@
                    
                
                         </div>
-                <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the left after 0.4s">
+                <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the left after 0.4s" runat="server">
                     <strong>Drop us a message!</strong>
 					
 					<br/>
 					<br/>
           
 
-                    <div class="form-group">
+                    <div class="form-group" runat="server">
 				
-                    <input class="form-control" type="text" placeholder="Full Name" size="50" />
+                    <input id="txtName" class="form-control" type="text" placeholder="Full Name" size="50" runat="server" />
 				    <br/>
 					
-                  
-					<input class="form-control" type="email" placeholder="Email Address" size="50"/>
-                   
-                    <br />
+              
+
+                    <input id="txtEmail" class="form-control" type="text" placeholder="Email Address" size="50" runat="server" />
+				    <br/>
+
+                    <input id="txtSubject" class="form-control" type="text" placeholder="Subject" size="50" runat="server"/>
+				    <br/>
                     
-                    <textarea class="form-control" placeholder="Talk to us..."  cols="50" rows="6"></textarea>
+                    <textarea id ="txtMess" class="form-control" placeholder="Talk to us..."  cols="50" rows="6" runat="server"></textarea>
 
                     <br />
                     
-                    <input class="btn btn-success" type="button" value="Send" />
+                    <input id="btnSend" class="btn btn-success" type="button" value="Send" onserverclick="SendEmail" runat ="server" />
 				   </div>
                       
                       </div>
