@@ -7,6 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="" />
     <meta name="author" content="" />
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 50%;
+      }
+    </style>
     <title>Homepage</title>
     <!-- BOOTSTRAP CORE STYLE CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
@@ -310,7 +317,7 @@
                    <i>Co-Founder & Developer</i>
                     </div>
                      <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the right after 0.2s" >
-                        <img src="assets/img/graduation.png" class="img-circle img-responsive" alt=""  />
+                        <img src="assets/img/KithMhlanga.jpg" class="img-circle img-responsive" alt=""  />
                           <h4 ><strong> Kith Mhlanga </strong></h4>
                          <i>Co-Founder & Developer</i>
                     </div>
@@ -366,18 +373,51 @@
         
              <div class="row" runat="server">
                  <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the right after 0.2s">
-                    <strong>ADDRESS :</strong>
-                        <p>
-                         2234/908, Newyork City ,
-                        <br />
-                         USA - 002301
-                            <br />
-                            email: info@domain.com
+                    <strong>LOCATION :</strong>
+                        <div id="map"></div>
+                            <script>
+                              // Note: This example requires that you consent to location sharing when
+                              // prompted by your browser. If you see the error "The Geolocation service
+                              // failed.", it means you probably did not give permission for the browser to
+                              // locate you.
 
-                        </p>
-                     
-                   
-               
+                              function initMap() {
+                                var map = new google.maps.Map(document.getElementById('map'), {
+                                  center: {lat: 0, lng: 0},
+                                  zoom: 15
+                                });
+                                var infoWindow = new google.maps.InfoWindow({map: map});
+
+                                // Try HTML5 geolocation.
+                                if (navigator.geolocation) {
+                                  navigator.geolocation.getCurrentPosition(function(position) {
+                                    var pos = {
+                                      lat: position.coords.latitude,
+                                      lng: position.coords.longitude
+                                    };
+
+                                    infoWindow.setPosition(pos);
+                                    infoWindow.setContent('We are wherever you are.');
+                                    map.setCenter(pos);
+                                  }, function() {
+                                    handleLocationError(true, infoWindow, map.getCenter());
+                                  });
+                                } else {
+                                  // Browser doesn't support Geolocation
+                                  handleLocationError(false, infoWindow, map.getCenter());
+                                }
+                              }
+
+                              function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+                                infoWindow.setPosition(pos);
+                                infoWindow.setContent(browserHasGeolocation ?
+                                                      'Error: The Geolocation service failed.' :
+                                                      'Error: Your browser doesn\'t support geolocation.');
+                              }
+                            </script>
+                            <script async defer
+                            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjayrVyD--FBfDh9fevADkSsiBC_zuBFg&callback=initMap">
+                            </script>
                         </div>
                 <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the left after 0.4s" runat="server">
                     <strong>Drop us a message!</strong>
