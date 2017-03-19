@@ -32,9 +32,20 @@
     <!-- Google	Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Antic:400,700,300' rel='stylesheet' type='text/css' />
     <!-- End of Google	Fonts -->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+	$(".loader").fadeOut("slow");
+})
+</script>
 </head>
 <body >
     <form id="HomeForm" runat="server">
+
+        <!-- div for the preloader gif -->
+        <div class="loader"></div>
+
     <!--<div class="switcher" style="left:-50px;">
         <a id="switch-panel" class="hide-panel">
             <i class="fa fa-recycle"></i>
@@ -271,7 +282,7 @@
                  <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the right after 0.2s">
                     <strong>Find Us!</strong>
                         <div id ="marker">
-                            <img onclick="unHideMap()" src=".../assets/img/GoogleMarker.png"/ style="padding-top:70px;"/>
+                            <img onclick="unHideMap()" src="assets/img/GoogleMarker.png" style="padding-top:70px;"/>
                             <script>
                                 function unHideMap() {
                                     var marker = document.getElementById('marker');

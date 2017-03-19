@@ -25,7 +25,7 @@ public partial class _Default : System.Web.UI.Page
         
         
         //Passes the email address to be sent from and the address to send to.
-        MailMessage mailMesage = new MailMessage("nfn8te@gmail.com", "nfn8te@gmail.com");
+        MailMessage mailMesage = new MailMessage("inf8te@gmail.com", "inf8te@gmail.com");
 
 
         StringBuilder sbEmailBody = new StringBuilder();
@@ -51,7 +51,7 @@ public partial class _Default : System.Web.UI.Page
         //The login credentials of the email account that will send the email the address.
         smtpClient.Credentials = new System.Net.NetworkCredential()
         {
-            UserName = "nfn8te@gmail.com",
+            UserName = "inf8te@gmail.com",
             Password = "infinite8"
         };
 
