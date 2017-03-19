@@ -9,15 +9,16 @@
     <meta name="author" content="" />
     
     <!--FavIcon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="/manifest.json">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="shortcut icon" href="favicon3.ico" type="image/x-icon"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16"/>
+    <link rel="manifest" href="/manifest.json"/>
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"/>
+    <meta name="theme-color" content="#ffffff"/>
     <!--End of FavIcon-->
 
-    <title>Homepage</title>
+    <title>INf&infin;te</title>
     <!-- BOOTSTRAP CORE STYLE CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <!-- FONT AWESOME CSS -->
@@ -270,7 +271,7 @@
                  <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the right after 0.2s">
                     <strong>Find Us!</strong>
                         <div id ="marker">
-                            <img onclick="unHideMap()" src="/assets/img/GoogleMarker.png"/ style="padding-top:70px;"/>
+                            <img onclick="unHideMap()" src=".../assets/img/GoogleMarker.png"/ style="padding-top:70px;"/>
                             <script>
                                 function unHideMap() {
                                     var marker = document.getElementById('marker');
