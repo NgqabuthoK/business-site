@@ -13,7 +13,7 @@
    GENERAL STYLES
  ============================================================ */
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Antic', sans-serif;
     line-height: 30px;
     
 }
@@ -173,4 +173,10 @@ min-height: 300px;
     text-align:right;
 }
 
-
+  /*=====================================
+  MAP STYLES 
+    ===================================*/
+#map {
+    position:relative;
+    height: 400px;
+}
