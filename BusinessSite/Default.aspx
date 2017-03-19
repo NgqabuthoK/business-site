@@ -7,6 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="" />
     <meta name="author" content="" />
+
+
+    <!--<script>
+        $(function() {
+           $('#se-pre-con').hide(500);
+        });
+    </script> -->
+
     <style>
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
@@ -14,7 +22,11 @@
         height: 50%;
       }
     </style>
-    <title>Homepage</title>
+    <title>nfn8te</title>
+
+    
+
+
     <!-- BOOTSTRAP CORE STYLE CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <!-- FONT AWESOME CSS -->
@@ -27,8 +39,18 @@
      <link href="assets/css/themes/green.css" id="mainCSS" rel="stylesheet" />   
   <!-- Google	Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' />
+
+     <link href="assets/css/StyleSheet.css" rel="stylesheet" />
+
+    
+
 </head>
-<body >
+<body>
+
+    <!-- <div class="se-pre-con" id="se-pre-con">
+
+    </div> -->
+
     <form id="HomeForm" runat="server">
     <!--<div class="switcher" style="left:-50px;">
         <a id="switch-panel" class="hide-panel">
@@ -41,7 +63,7 @@
             <li><a title="Red" id="red" class="red" ></a></li>
         </ul>
     </div>	
-    <!--END STYLE SWITCHER-->-->
+    <!--END STYLE SWITCHER-->
  <div class="navbar navbar-inverse navbar-fixed-top move-me" id="menu">
         <div class="container">
             <div class="navbar-header">
@@ -133,6 +155,7 @@
                             </div>
                         </div>
                     </div>
+
                <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the right after 0.7s">
                         <div class="media">
                             <div class="pull-left">
@@ -150,8 +173,8 @@
                     </div>
               
             </div>
-                <div class="row text-center just-pad" >
-           
+                
+     <div class="row text-center just-pad" >
               <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.2s" >
                         <i class=" fa fa-medkit fa-5x " style="color:"></i>
                    <h4 ><strong>Support & Maintenance</strong></h4>
@@ -454,7 +477,7 @@
           </section>
      <!--CONTACT SECTION END-->
     <div class="myfooter" >
-                     &copy; 2017 yourdomain.com | by: <a href="http://binarytheme.com" style="color:#fff;" target="_blank"  >www.binarytheme.com</a>
+                     &copy; 2017 nfn8te.co.za | by: <a href="http://nfn8te.co.za" style="color:#fff;" target="_blank"  >www.nfn8te.co.za</a>
 
     </div>
     <!--FOOTER SECTION END-->
