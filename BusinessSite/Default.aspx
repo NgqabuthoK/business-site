@@ -7,26 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <style>
-      /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-      #map {
-        height: 50%;
-      }
-    </style>
+    
+    <!--FavIcon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+    <!--End of FavIcon-->
+
     <title>Homepage</title>
     <!-- BOOTSTRAP CORE STYLE CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <!-- FONT AWESOME CSS -->
-<link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
      <!-- STYLE SWITCHER  CSS -->
-<link href="assets/css/styleSwitcher.css" rel="stylesheet" />
+    <link href="assets/css/styleSwitcher.css" rel="stylesheet" />
     <!-- CUSTOM STYLE CSS -->
     <link href="assets/css/style.css" rel="stylesheet" />  
      <!--GREEN STYLE VERSION IS BY DEFAULT, USE ANY ONE STYLESHEET FROM TWO STYLESHEETS (green or red) HERE-->
      <link href="assets/css/themes/green.css" id="mainCSS" rel="stylesheet" />   
-  <!-- Google	Fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' />
+    <!-- Google	Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Antic:400,700,300' rel='stylesheet' type='text/css' />
+    <!-- End of Google	Fonts -->
 </head>
 <body >
     <form id="HomeForm" runat="server">
@@ -50,17 +54,15 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img class="logo-custom" src="assets/img/logo180-50.png" alt=""  /></a>
+                <a class="navbar-brand" href="#"><img class="logo-custom" src="assets/img/Logo2.png" alt=""  /></a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li ><a href="#home">HOME</a></li>
                      <li><a href="#features">SERVICES</a></li>
-                   
-                    <li><a href="#developers">DEVELOPERS</a></li>
-                     <!--<li><a href="#pricing">PRICING</a></li>-->
+                     <li><a href="#developers">DEVELOPERS</a></li>
                      <li><a href="#contact">CONTACT</a></li>
-                     <!--<li><a href="mailto:info@domain.com?Subject=Product%20Enquiry" target="_top"> <i class="fa fa-envelope-o"></i><span class="home-mail">e-mail: info@domain.com</span></a></li>-->
+                     <!--<li><a href="mailto:info@infin8te.co.za?Subject=Product%20Enquiry" target="_top"> <i class="fa fa-envelope-o"></i><span class="home-mail">e-mail: info@infin8te.co.za</span></a></li>-->
                 </ul>
             </div>
            
@@ -82,7 +84,7 @@
                                    
                    <p data-scroll-reveal="enter from the bottom after 0.8s">
                 To have an effect you need to be where the people are, to win at this game you need to get online and play.<br/>
-                 In steps a young, dynamic and vibrant team of software and web developers.Armed with an arsenal of the latest tech trends, skills and expertise. <br />
+                 In steps a young, dynamic and vibrant team of software and web developers. Armed with an arsenal of the latest tech trends, skills and expertise. <br />
                        As a software and web development company we strive to help SMMEs bridge the technological divide. How?<br />
                         By providing all the services necessary to create, maintain and profit from a digital footprint.
                             
@@ -97,264 +99,157 @@
                 
                </div>
                 </div>
-           </div>
-           
+           </div> 
        </section>
        <!--HEADER SECTION END-->
+
+    <!--Services SECTION END-->
    <section class="features" id="features">
- <div class="container">
-           <div class="row text-center" >
+     <div class="container">
+               <div class="row text-center" >
            
-               <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                   <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                
-                <h3 data-scroll-reveal="enter from the bottom after 0.1s">
-                    <strong>
-                   Our services
-                        </strong>
-                        </h3>
+                    <h3 data-scroll-reveal="enter from the bottom after 0.1s">
+                        <strong>
+                       Our services
+                            </strong>
+                            </h3>
                 
-            </div>
-                
-               </div>
-     <div class="row " >
-           
-              <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the left after 0.4s" >
-                        <div class="media">
-                            <div class="pull-left">
-                                <i class=" fa fa-mobile fa-5x " style="color:"></i>
-
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading"><strong> Mobile Optimization </strong></h4>
-                                <p>
-                                    Let us transform your website into a modern, engaging and mobile gateway that does not lose it's brilliance whether on a smartphone, tablet or computer.
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-               <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the right after 0.7s">
-                        <div class="media">
-                            <div class="pull-left">
-                                <i class=" fa fa-history fa-5x " style="color:"></i>
-
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading"><strong> Hosting </strong></h4>
-                                <p>
-                                    You can take the hassle of web hosting away and give yourself more time to focus on what you are about - your business, your inspiration, your life.
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-              
-            </div>
-                <div class="row text-center just-pad" >
-           
-              <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.2s" >
-                        <i class=" fa fa-medkit fa-5x " style="color:"></i>
-                   <h4 ><strong>Support & Maintenance</strong></h4>
-                  <p>
-                      <!--Perhaps we should merge this service with the Step-by-step Guide? I feel that they are a great deal related-->
-                       <!--Not necessarily. The Step-by-Step guide ends the moment we finish the project.-->
-                     With 24/7 availability let our team work hard to ensure that your website is always kept in pristine condition.
-                      Have questions? Need some clarity? We will gladly take care of any worry you have, find a solution and see it through to
-                      your satisfaction.
-      
-                  </p>
-                    </div>
-               
-               <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.8s" >
-                        <i class=" fa fa-sitemap fa-5x " style="color:"></i>
-                   <h4 ><strong> Detailed Solutions </strong></h4>
-                  <p>
-                      Solutions that are in harmony with your business. 
-                                Solutions that are agile. Solutions that are perfect for you.
-                  </p>
-                    </div>
-                     <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 1.4s" >
-                        <i class=" fa fa-cubes fa-5x " style="color:"></i>
-                          <h4 ><strong> Step-by-step Guide </strong></h4>
-                  <p>
-                      A reference that helps in those frustrated moments. Documentation that effectively describes the minute details of your solution. 
-                          We provide you with all that is required to not only manage your solution but also customize it further.
-                       <!--The line above makes great sense. It should be there.-->
-                  </p>
-                    </div>
-            </div>
-
-     <div class="row" >
-
-         <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the right after 0.7s">
-                        <div class="media">
-                            <div class="pull-left">
-                                <i class=" fa fa-globe fa-5x " style="color:"></i>                             
-
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading"><strong> Search Engine Optimization </strong></h4>
-                                <p>
-                                  The fastest way for your website to be known and frequently visited? Is through Search. Our team will
-                                    develop your website using the latest standards required for it to have a high
-                                    search ranking, organically.
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-              
-            </div>
-
-
-     </div>
-     <!--Added row of service features-->
-         <!-- <div class="row " >
-           
-              <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the left after 0.4s" >
-                        <div class="media">
-                            <div class="pull-left">
-                                <i class=" fa fa-cogs fa-5x " style="color:"></i>                         
-
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading"><strong> Responsive Layout </strong></h4>
-                                <p>
-                                    Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
-                                Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-               <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the right after 0.7s">
-                        <div class="media">
-                            <div class="pull-left">
-                                <i class=" fa fa-globe fa-5x " style="color:"></i>                             
-
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading"><strong> Search Engine Optimization </strong></h4>
-                                <p>
-                                    Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc. 
-                                Aenean faucibus luctus enim. Duis quis sem risu suspend lacinia elementum nunc.
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-              
-            </div>
-               </div>-->
-           
-       </section>
-    <!--FEATURES SECTION END-->
-     <!--<section class="testi-sec" >
-           <div class="overlay">
- <div class="container">
-           <div class="row text-center" >
-           
-               <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-               
-                <h3 data-scroll-reveal="enter from the bottom after 0.1s">
-                    <strong>
-                   What Our Clients Says
-                        </strong>
-                        </h3>
-                                   
-                   <h4 data-scroll-reveal="enter from the bottom after 0.8s">
-               <i class="fa fa-quote-left "></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Nulla pretium lectus vel Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         <i class="fa fa-quote-right "></i>
-                       <br />
-                       <span class="pull-right"><strong>-Jimmy Kelly</strong></span>
-                       </h4>
-                     
-                  
-     
-              
-              
-            </div>
-                
-               </div>
                 </div>
-           </div>
-           
-       </section>-->
-       <!--TESTIMONIAL SECTION END-->
-    <section class="developers" id="developers" >
- <div class="container">
-           <div class="row text-center" >
-           
-               <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-               
-                <h3 data-scroll-reveal="enter from the bottom after 0.1s">
-                    <strong>
-                  Our Developers 
-                        </strong>
-                        </h3>
-                                   
-                              
-     
-              
-              
-            </div>
                 
-               </div>
-     
-                <div class="row " >
+                   </div>
+         <div class="row " >
            
-              <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the left after 0.2s" >
-                        
-               <img src="assets/img/graduation.png" class="img-circle img-responsive" alt=""  />
-                   <h4 ><strong> Khethelo Maphumulo </strong></h4>
-                  <i>Business Manager</i>
-                    </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the left after 0.4s" >
+                            <div class="media">
+                                <div class="pull-left">
+                                    <i class=" fa fa-mobile fa-5x " style="color:"></i>
+
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><strong> Mobile Optimization </strong></h4>
+                                    <p>
+                                        Let us transform your website into a modern, engaging and mobile gateway that does not lose it's brilliance whether on a smartphone, tablet or computer.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                   <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the right after 0.7s">
+                            <div class="media">
+                                <div class="pull-left">
+                                    <i class=" fa fa-history fa-5x " style="color:"></i>
+
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><strong> Hosting </strong></h4>
+                                    <p>
+                                        You can take the hassle of web hosting away and give yourself more time to focus on what you are about - your business, your inspiration, your life.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+              
+                </div>
+                    <div class="row text-center just-pad" >
+           
+                  <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.2s" >
+                            <i class=" fa fa-medkit fa-5x " style="color:"></i>
+                       <h4 ><strong>Support & Maintenance</strong></h4>
+                      <p>
+                         With 24/7 availability let our team work hard to ensure that your website is always kept in pristine condition.
+                          Have questions? Need some clarity? We will gladly take care of any worry you have, find a solution and see it through to
+                          your satisfaction.
+      
+                      </p>
+                        </div>
                
-               <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the left after 0.2s" >
-                        <img src="assets/img/graduation.png" class="img-circle img-responsive" alt=""  />
-                   <h4 ><strong>Lungani Mkhize</strong></h4>
-                   <i>Co-Founder & Developer</i>
-                    </div>
-                     <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the right after 0.2s" >
-                        <img src="assets/img/KithMhlanga.jpg" class="img-circle img-responsive" alt=""  />
-                          <h4 ><strong> Kith Mhlanga </strong></h4>
-                         <i>Co-Founder & Developer</i>
-                    </div>
-            </div>
-               </div>
+                   <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.8s" >
+                            <i class=" fa fa-sitemap fa-5x " style="color:"></i>
+                       <h4 ><strong> Detailed Solutions </strong></h4>
+                      <p>
+                          Solutions that are in harmony with your business. 
+                                    Solutions that are agile. Solutions that are perfect for you.
+                      </p>
+                        </div>
+                         <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 1.4s" >
+                            <i class=" fa fa-cubes fa-5x " style="color:"></i>
+                              <h4 ><strong> Step-by-step Guide </strong></h4>
+                      <p>
+                          A reference that helps in those frustrated moments. Documentation that effectively describes the minute details of your solution. 
+                              We provide you with all that is required to not only manage your solution but also customize it further.
+                      </p>
+                        </div>
+                </div>
+
+         <div class="row" >
+
+             <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the right after 0.7s">
+                            <div class="media">
+                                <div class="pull-left">
+                                    <i class=" fa fa-globe fa-5x " style="color:"></i>                             
+
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><strong> Search Engine Optimization </strong></h4>
+                                    <p>
+                                      The fastest way for your website to be known and frequently visited? Is through Search. Our team will
+                                        develop your website using the latest standards required for it to have a high
+                                        search ranking, organically.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+              
+                </div>
+
+
+         </div> 
+   </section>
+    <!--FEATURES SECTION END-->
+     
+    <section class="developers" id="developers" >
+     <div class="container">
+               <div class="row text-center" >
            
+                   <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+               
+                    <h3 data-scroll-reveal="enter from the bottom after 0.1s">
+                        <strong>
+                      Our Developers 
+                            </strong>
+                            </h3>
+                </div>
+                
+                   </div>
+     
+                    <div class="row " >
+           
+                  <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the left after 0.2s" >
+                        
+                   <img src="assets/img/graduation.png" class="img-circle img-responsive" alt=""  />
+                       <h4 ><strong> Khethelo Maphumulo </strong></h4>
+                      <i>Business Manager</i>
+                        </div>
+               
+                   <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the left after 0.2s" >
+                            <img src="assets/img/graduation.png" class="img-circle img-responsive" alt=""  />
+                       <h4 ><strong>Lungani Mkhize</strong></h4>
+                       <i>Co-Founder & Developer</i>
+                        </div>
+                         <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the right after 0.2s" >
+                            <img src="assets/img/KithMhlanga.jpg" class="img-circle img-responsive" alt=""  />
+                              <h4 ><strong> Kith Mhlanga </strong></h4>
+                             <i>Co-Founder & Developer</i>
+                        </div>
+                </div>
+                   </div>
        </section>
     <!--DEVELOPERS SECTION END-->
-   <!-- <section class="price-sec text-center "  id="pricing">
-                  
 
-           
-               <div class="col-lg-6  col-md-6 col-sm-6 single-price" data-scroll-reveal="enter from the left after 0.2s">
-               
-               <span >199 <i class="fa fa-dollar"></i></span>
-                     
-                  <h1>SINGLE LICENSE</h1>
-     
-                  
-     
-              
-              
-            </div>
-                <div class="col-lg-6  col-md-6 col-sm-6 multi-price" data-scroll-reveal="enter from the right after 0.2s">
-               
-                
-                      <span >890 <i class="fa fa-dollar"></i></span>
-                     <h1>MULTIPLE LICENSE</h1>
-                  
-     
-              
-              
-            </div>
-                  
-          
-       </section>-->
-    <!--PRICING SECTION END-->
     <section class="contact" id="contact" >
             <div class="container">
                  <div class="row text-center " >
@@ -373,8 +268,20 @@
         
              <div class="row" runat="server">
                  <div class="col-lg-6 col-md-6 col-sm-6" data-scroll-reveal="enter from the right after 0.2s">
-                    <strong>LOCATION :</strong>
-                        <div id="map"></div>
+                    <strong>Find Us!</strong>
+                        <div id ="marker">
+                            <img onclick="unHideMap()" src="/assets/img/GoogleMarker.png"/ style="padding-top:70px;"/>
+                            <script>
+                                function unHideMap() {
+                                    var marker = document.getElementById('marker');
+                                    marker.hidden = "hidden";
+
+                                    var map = document.getElementById('map');
+                                    map.hidden = "";
+                                }
+                            </script>
+                        </div>
+                        <div id="map" hidden="hidden" onload="initMap()"></div>
                             <script>
                               // Note: This example requires that you consent to location sharing when
                               // prompted by your browser. If you see the error "The Geolocation service
@@ -386,6 +293,7 @@
                                   center: {lat: 0, lng: 0},
                                   zoom: 15
                                 });
+
                                 var infoWindow = new google.maps.InfoWindow({map: map});
 
                                 // Try HTML5 geolocation.
@@ -395,6 +303,12 @@
                                       lat: position.coords.latitude,
                                       lng: position.coords.longitude
                                     };
+
+                                    /*var marker = new google.maps.Marker({
+                                        position: pos,
+                                        map: map,
+                                        title: 'We are wherever you are!'
+                                    });*/
 
                                     infoWindow.setPosition(pos);
                                     infoWindow.setContent('We are wherever you are.');
@@ -443,7 +357,7 @@
 
                     <br />
                     
-                    <input id="btnSend" class="btn btn-success" type="button" value="Send" onserverclick="SendEmail" runat ="server" />
+                    <input id="btnSend" class="btn btn-success" type="button" value="Send" onserverclick="SendEmail" runat ="server" style="background-color:#4bb777;"/>
 				   </div>
                       
                       </div>
@@ -454,7 +368,7 @@
           </section>
      <!--CONTACT SECTION END-->
     <div class="myfooter" >
-                     &copy; 2017 yourdomain.com | by: <a href="http://binarytheme.com" style="color:#fff;" target="_blank"  >www.binarytheme.com</a>
+                     &copy; 2017 <a href="http://infin8te.co.za" style="color:#fff;">www.infin8te.co.za</a> | <a href="http://binarytheme.com" style="color:#4bb777;" target="_blank"  >www.binarytheme.com</a>
 
     </div>
     <!--FOOTER SECTION END-->
