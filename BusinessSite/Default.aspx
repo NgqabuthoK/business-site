@@ -242,18 +242,18 @@ $(window).load(function() {
            
                   <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the left after 0.2s" >
                         
-                   <img src="assets/img/graduation.png" class="img-circle img-responsive" alt=""  />
+                   <img src="assets/img/Khethelo2.jpg" class="img-circle img-responsive" alt=""  />
                        <h4 ><strong> Khethelo Maphumulo </strong></h4>
                       <i>Business Manager</i>
                         </div>
                
                    <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the left after 0.2s" >
-                            <img src="assets/img/graduation.png" class="img-circle img-responsive" alt=""  />
+                            <img src="assets/img/Lungani2.jpg" class="img-circle img-responsive" alt=""  />
                        <h4 ><strong>Lungani Mkhize</strong></h4>
                        <i>Co-Founder & Developer</i>
                         </div>
                          <div class="col-lg-4 col-md-4 col-sm-4" data-scroll-reveal="enter from the right after 0.2s" >
-                            <img src="assets/img/KithMhlanga.jpg" class="img-circle img-responsive" alt=""  />
+                            <img src="assets/img/KithMhlanga1.jpg" class="img-circle img-responsive" alt=""  />
                               <h4 ><strong> Kith Mhlanga </strong></h4>
                              <i>Co-Founder & Developer</i>
                         </div>
