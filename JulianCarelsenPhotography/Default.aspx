@@ -399,14 +399,14 @@
 	    $.vegas('slideshow', {
 	        delay: 5000,
 	        backgrounds: [
-               { src: './img/nature1.jpg', fade: 2000 },
-               { src: './img/bw1.jpg', fade: 2000 },
-              { src: './img/portrait1.jpg', fade: 2000 },
-               { src: './img/portrait5.jpg', fade: 2000 },
-              { src: './img/portrait2.jpg', fade: 2000 },
-              { src: './img/portrait3.jpg', fade: 2000 },
-               { src: './img/portrait4.jpg', fade: 2000 },
-                 { src: './img/forest.jpg', fade: 2000 }
+               { src: './img/slide1.jpg', fade: 2000 },
+               //{ src: './img/bw1.jpg', fade: 2000 },
+              //{ src: './img/portrait1.jpg', fade: 2000 },
+               //{ src: './img/portrait5.jpg', fade: 2000 },
+              { src: './img/slide2.jpg', fade: 2000 },
+              { src: './img/slide3.jpg', fade: 2000 }
+               //{ src: './img/portrait4.jpg', fade: 2000 },
+                 //{ src: './img/forest.jpg', fade: 2000 }
 
 	        ]
 	    });//('overlay', {
