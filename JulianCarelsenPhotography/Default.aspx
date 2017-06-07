@@ -100,25 +100,17 @@
               <p>Ad has dicat ridens consetetur, eos eu option persius. Mollis cotidieque conclusionemque per id, ne nam alienum liberavisse.</p>
             </div>
           </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-6 text-center">
             <div class="service-item">
               <i class="service-icon fa fa-glass fa-3x"></i>
               <h3>Events</h3>
               <p>Ad has dicat ridens consetetur, eos eu option persius. Mollis cotidieque conclusionemque per id, ne nam alienum liberavisse.</p>
             </div>
           </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-6 text-center">
             <div class="service-item">
               <i class="service-icon fa fa-home fa-3x"></i>
               <h3>Family Portrait</h3>
-              <p>Ad has dicat ridens consetetur, eos eu option persius. Mollis cotidieque conclusionemque per id, ne nam alienum liberavisse.</p>
-            </div>
-          </div>
-
-            <div class="col-md-4 text-center">
-            <div class="service-item">
-              <i class="service-icon fa fa-video-camera fa-3x"></i>
-              <h3>Video</h3>
               <p>Ad has dicat ridens consetetur, eos eu option persius. Mollis cotidieque conclusionemque per id, ne nam alienum liberavisse.</p>
             </div>
           </div>
@@ -500,7 +492,7 @@
             <h2>About Us</h2>
               <br />
               <br />
-              <img id="Julian" class="img-rounded" alt="Julian Carelsen" src="img/JulianCarelsen.jpg"/ style="width:100%;">
+              <img id="Julian" class="img-rounded" alt="Julian Carelsen" src="img/JulianCarelsen.jpg"/ style="width:50%;">
 
             <p class="lead">Lorem ipsum dolor sit amet, ei essent delenit sit, adipisci salutatus has eu. Quis tamquam cu nam. Sed esse deleniti et, ex rebum quaestio his. Audiam deseruisse sed cu, vix ex possim causae omittantur.</p>
           </div>
@@ -586,11 +578,8 @@
 	    $.vegas('slideshow', {
 	        delay: 5000,
 	        backgrounds: [
-              { src: './img/Birds.jpg', fade: 4000 },
-               { src: './img/MosesMabhida.jpg', fade: 4000 },
+              { src: './img/Home3.jpg', fade: 4000 },
               { src: './img/Home2.jpg', fade: 4000 },
-              { src: './img/Durban.jpg', fade: 4000 },
-                { src: './img/OkuhleTamella.jpg', fade: 4000 },
                 { src: './img/Home1.jpg', fade: 4000 }
 
 	        ]

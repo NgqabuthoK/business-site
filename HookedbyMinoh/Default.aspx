@@ -47,18 +47,21 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					
-                    <a class="navbar-brand" href="#"><img class="logo-custom" src="assets/images/logo3.png" alt="" /></a>
+					<div class="logo-div">
+                        <a class="navbar-brand" href="#"><img class="logo-custom" src="assets/images/Logo3(1).png" alt="" /></a>
+					</div>
+                    
                 </div>
 				
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+
+                    <ul class="nav navbar-nav navbar-right nav-icon">
                         <li><a href="#"><i class="fa fa-camera"></i></a></li>
+                        <li><a href="https://twitter.com/minomaphs"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/minenhhle/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/minenhhle/?ref=py_c"><i class="fa fa-facebook"></i></a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -73,7 +76,7 @@
                         <div class="col-md-12">
                             <div class="home-content text-center">
 								
-								<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2000">
+								<%--<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2000">
 									  <!-- Indicators -->
 									  <ol class="carousel-indicators">
 										<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -110,7 +113,7 @@
 									  </div>
 
 									 
-								</div>
+								</div>--%>
 								
 
                             </div>
@@ -125,7 +128,7 @@
         <section id="parallax" class="sections text-center">
 			
 			<div class="heading-content">
-				<span class="lnr lnr-camera"></span>
+				<%--<span class="lnr lnr-camera"></span>--%>
 				<h4>everyday’s a journey</h4>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 			</div>
@@ -139,16 +142,14 @@
 				<div class="img-overlay"></div>
 
 			</div>
-				
-
         </section>
 		
 		
 		<!-- Sections -->
         <section id="portfolio" class="sections">
 			<div class="heading-content text-center">
-				<span class="lnr lnr-file-empty"/>
-				<h4>My Portfolio</h4>
+				<%--<span class="lnr lnr-file-empty"/>--%>
+				<h4>Get Hooked</h4>
 				
 			</div>
 			
@@ -158,35 +159,35 @@
 					
 						<div class="col-md-3 col-sm-6 col-xs-12">
 							<div class="portfolio-item">
-								<a class="portfolio-img" href="assets/images/portfolio/1.png"><img src="assets/images/portfolio/1.png" alt="" /></a>
+								<a class="portfolio-img" href="assets/images/portfolio/portfolio1.jpg"><img src="assets/images/portfolio/portfolio1.jpg" alt="" /></a>
 								<div class="img-overlay"></div>
 							</div>
 						</div>
 						
 						<div class="col-md-3 col-sm-6 col-xs-12">
 							<div class="portfolio-item">
-								<a class="portfolio-img" href="assets/images/portfolio/2.png"><img src="assets/images/portfolio/2.png" alt="" /></a>
+								<a class="portfolio-img" href="assets/images/portfolio/portfolio2.jpg"><img src="assets/images/portfolio/portfolio2.jpg" alt="" /></a>
 								<div class="img-overlay"></div>
 							</div>
 						</div>
 						
 						<div class="col-md-3 col-sm-6 col-xs-12">
 							<div class="portfolio-item">
-								<a class="portfolio-img" href="assets/images/portfolio/3.png"><img src="assets/images/portfolio/3.png" alt="" /></a>
+								<a class="portfolio-img" href="assets/images/portfolio/portfolio3.jpg"><img src="assets/images/portfolio/portfolio3.jpg" alt="" /></a>
 								<div class="img-overlay"></div>
 							</div>
 						</div>
 						
 						<div class="col-md-3 col-sm-6 col-xs-12">
 							<div class="portfolio-item">
-								<a class="portfolio-img" href="assets/images/portfolio/4.png"><img src="assets/images/portfolio/4.png" alt="" /></a>
+								<a class="portfolio-img" href="assets/images/portfolio/portfolio4.jpg"><img src="assets/images/portfolio/portfolio4.jpg" alt="" /></a>
 								<div class="img-overlay"></div>
 							</div>
 						</div>
 						
 					</div>
 
-					<div class="row">
+<%--					<div class="row">
 						<div class="col-md-12">
 							<div class="social">
 							
@@ -200,34 +201,66 @@
 							</div>
 							<div class="item-overlay"></div>
 						</div>
-					</div>
+					</div>--%>
 					
+                    <div class="row">
+					
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="portfolio-item">
+								<a class="portfolio-img" href="assets/images/portfolio/portfolio16.jpg"><img src="assets/images/portfolio/portfolio16.jpg" alt="" /></a>
+								<div class="img-overlay"></div>
+							</div>
+						</div>
+						
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="portfolio-item">
+								<a class="portfolio-img" href="assets/images/portfolio/portfolio11.jpg"><img src="assets/images/portfolio/portfolio11.jpg" alt="" /></a>
+								<div class="img-overlay"></div>
+							</div>
+						</div>
+						
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="portfolio-item">
+								<a class="portfolio-img" href="assets/images/portfolio/portfolio12.jpg"><img src="assets/images/portfolio/portfolio12.jpg" alt="" /></a>
+								<div class="img-overlay"></div>
+							</div>
+						</div>
+						
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="portfolio-item">
+								<a class="portfolio-img" href="assets/images/portfolio/portfolio15.jpg"><img src="assets/images/portfolio/portfolio15.jpg" alt="" /></a>
+								<div class="img-overlay"></div>
+							</div>
+						</div>
+						
+					</div>
+
 					<div class="row">
 					
 						<div class="col-md-3 col-sm-6 col-xs-12">
 							<div class="portfolio-item">
-								<a class="portfolio-img" href="assets/images/portfolio/1.png"><img src="assets/images/portfolio/1.png" alt="" /></a>
+								<a class="portfolio-img" href="assets/images/portfolio/portfolio6.jpg"><img src="assets/images/portfolio/portfolio6.jpg" alt="" /></a>
 								<div class="img-overlay"></div>
 							</div>
 						</div>
 						
 						<div class="col-md-3 col-sm-6 col-xs-12">
 							<div class="portfolio-item">
-								<a class="portfolio-img" href="assets/images/portfolio/2.png"><img src="assets/images/portfolio/2.png" alt="" /></a>
+								<a class="portfolio-img" href="assets/images/portfolio/portfolio7.jpg"><img src="assets/images/portfolio/portfolio7.jpg" alt="" /></a>
 								<div class="img-overlay"></div>
 							</div>
 						</div>
 						
 						<div class="col-md-3 col-sm-6 col-xs-12">
 							<div class="portfolio-item">
-								<a class="portfolio-img" href="assets/images/portfolio/3.png"><img src="assets/images/portfolio/3.png" alt="" /></a>
+								<a class="portfolio-img" href="assets/images/portfolio/portfolio8.jpg"><img src="assets/images/portfolio/portfolio8.jpg" alt="" /></a>
 								<div class="img-overlay"></div>
 							</div>
 						</div>
 						
 						<div class="col-md-3 col-sm-6 col-xs-12">
 							<div class="portfolio-item">
-								<a class="portfolio-img" href="assets/images/portfolio/4.png"><img src="assets/images/portfolio/4.png" alt="" /></a>
+								<a class="portfolio-img" href="assets/images/portfolio/portfolio9.jpg"><img src="assets/images/portfolio/portfolio9.jpg" alt="" /></a>
 								<div class="img-overlay"></div>
 							</div>
 						</div>
@@ -235,12 +268,12 @@
 					</div>
 				
 				
-				<nav>
+				<!--<nav>
 				  <ul class="pager">
 					<li class="previous disabled"><a href="#"><i class="fa fa-chevron-left"></i>Previous Page</a></li>
 					<li class="next"><a href="#">Next Page<i class="fa fa-chevron-right"></i></a></li>
 				  </ul>
-				</nav>
+				</nav> -->
 				
 			</div>	
 			
@@ -250,21 +283,16 @@
 		<!-- Sections -->
         <section id="google-map" class="sections2">
 			<div class="heading-content text-center">
-				<span class="lnr lnr-map"/>
 				<h4>Find Me On</h4>
 				
 				<div class="heading-icon">
-					<a href="#"><i class="fa fa-recycle"></i></a>
-					<a href="#"><i class="fa fa-flickr"></i></a>
-					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="https://twitter.com/minomaphs"><i class="fa fa-twitter"></i></a>
+					<a href="https://www.facebook.com/minenhhle/?ref=py_c"><i class="fa fa-facebook"></i></a>
+					<a href="https://www.instagram.com/minenhhle/"><i class="fa fa-instagram"></i></a>
 				</div>
 				
 				
 			</div>
-			
-			<div class="map-area">
-				<div id="map"></div>
-			</div>	
 			
         </section>
 		
@@ -274,7 +302,7 @@
 
             <div class="heading-content text-center">
                
-                <h3>interested in my work? let’s get in touch!</h3>
+                <h3>Get your hookup</h3>
 
             </div>
 
@@ -284,7 +312,7 @@
                     <form>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name"/>
+                                <input type="text" class="form-control" id="exampleInputName1" placeholder="Name"/>
                             </div>
                         </div>
 
@@ -308,7 +336,7 @@
 			
 			<div class="row">
 				<div class="copyright text-center">
-					<p>Made with <i class="fa fa-heart"></i> by <a target="_blank" href="http://bootstrapthemes.co"> Bootstrap Themes </a>2016. All rights reserved.</p>
+					<p>Made with <i class="fa fa-heart"></i> by <a target="_blank" href=""> Infin8te </a>2017. All rights reserved.</p>
 				</div>
 			</div>
 			
@@ -325,12 +353,8 @@
 
         <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
         <script src="assets/js/vendor/bootstrap.min.js"></script>
-		
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-		<script src="http://maps.google.com/maps/api/js?key=AIzaSyCjayrVyD--FBfDh9fevADkSsiBC_zuBFg"></script>
-		<script src="assets/js/vendor/gmaps.min.js"></script>
 		<script src="assets/js/vendor/jquery.magnific-popup.min.js"></script>
-		
         <script src="assets/js/plugins.js"></script>
         <script src="assets/js/main.js"></script>
     </form>
