@@ -58,7 +58,7 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                     <ul class="nav navbar-nav navbar-right nav-icon">
-                        <li><a href="#"><i class="fa fa-camera"></i></a></li>
+                        <li><a href="#portfolio"><i class="fa fa-camera"></i></a></li>
                         <li><a href="https://twitter.com/minomaphs"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="https://www.instagram.com/minenhhle/"><i class="fa fa-instagram"></i></a></li>
                         <li><a href="https://www.facebook.com/minenhhle/?ref=py_c"><i class="fa fa-facebook"></i></a></li>
@@ -129,14 +129,17 @@
 			
 			<div class="heading-content">
 				<%--<span class="lnr lnr-camera"></span>--%>
-				<h4>everyday’s a journey</h4>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				<%--<h4>everyday’s a journey</h4>--%>
+				<p>A brand that provides handmade premium crochet apparel for free spirited
+                ladies. Hooked by Minoh caters for women who dare to feel good in their own skin. The brand
+                specialises in custom made crochet tops and beach wear hand crafted from a range of wools. The
+                aim is to provide customised pieces that flatter their arches and curves.</p>
 			</div>
 				
 			<div class="parallax-area">
 
 				<div class="parallax-content">
-					<h5>You never get a second chance to make a good first impression</h5>
+					<h4>She, with wild passion and no limits</h4>
 				</div>
 					
 				<div class="img-overlay"></div>
@@ -306,29 +309,29 @@
 
             </div>
 
-            <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="row" runat="server">
+                <div class="col-md-12 col-sm-12 col-xs-12" runat="server">
 
                     <form>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="exampleInputName1" placeholder="Name"/>
+                                <input type="text" class="form-control" id="txtName" placeholder="Name" runat="server"/>
                             </div>
                         </div>
 
                         <div class="col-md-6 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email"/>
+                                <input type="email" class="form-control" id="txtEmail" placeholder="Email" runat="server"/>
                             </div>
                         </div>
 
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="form-group">
-                                <textarea class="form-control txt-area" rows="6" placeholder="Message . . ."></textarea>
+                                <textarea id="txtMess" class="form-control txt-area" rows="6" placeholder="Message . . ." runat="server"></textarea>
                             </div>
                         </div>
 
-                        <div class="contact-button"><button type="button" class="btn btn-default btn-lg">Submit</button></div>
+                        <div class="contact-button"><button id="btnSend" type="button" class="btn btn-default btn-lg" runat ="server">Hook Me Up</button></div>
                     </form>
 
                 </div>
@@ -336,7 +339,7 @@
 			
 			<div class="row">
 				<div class="copyright text-center">
-					<p>Made with <i class="fa fa-heart"></i> by <a target="_blank" href=""> Infin8te </a>2017. All rights reserved.</p>
+					<p>Made with <i class="fa fa-heart"></i> by <a target="_blank" href="http://infin8te.co.za"> Infin8te </a>2017. All rights reserved.</p>
 				</div>
 			</div>
 			
@@ -354,7 +357,7 @@
         <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
         <script src="assets/js/vendor/bootstrap.min.js"></script>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-		<script src="assets/js/vendor/jquery.magnific-popup.min.js"></script>
+		<%--<script src="assets/js/vendor/jquery.magnific-popup.min.js"></script>--%>
         <script src="assets/js/plugins.js"></script>
         <script src="assets/js/main.js"></script>
     </form>

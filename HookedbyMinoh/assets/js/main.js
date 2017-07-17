@@ -31,60 +31,6 @@ jQuery(document).ready(function ($) {
      * Google Map
      ---------------------------------------------*/
 	
-	$(function () {
-          var map = new GMaps({
-          el: "#map",
-          lat: 23.535726,
-		  lng: 90.713344,
-          zoom: 5, 
-          zoomControl : true,
-          panControl : true,
-          streetViewControl : false,
-          mapTypeControl: false,
-          overviewMapControl: false,
-		  scrollwheel:false
-
-        });
-		
-		map.addMarker({
-		lat: 23.535726,
-		lng: 90.713344,
-		title: 'Dhaka, Bangladesh',
-
-		});
-
-        var styles = [
-            {
-              stylers: [
-                { hue: "#695b47" },
-                { saturation:50 }
-              ]
-            }, {
-                featureType: "road",
-                elementType: "geometry",
-                stylers: [
-                    { lightness: 100 },
-                    { visibility: "simplified" }
-              ]
-            }, {
-                featureType: "road",
-                elementType: "labels",
-                stylers: [
-                    { visibility: "off" }
-              ]
-            }
-        ];
-        
-        map.addStyle({
-            styledMapName:"Styled Map",
-            styles: styles,
-            mapTypeId: "map_style"  
-        });
-        
-        map.setStyle("map_style");
-      });
-
-	
 	$(window).scroll(function(){
 		if($(this).scrollTop()>200)
 		{
@@ -124,12 +70,12 @@ jQuery(document).ready(function ($) {
      * Gallery Pop Up Animation
      ---------------------------------------------*/
 
-    $('.portfolio-img').magnificPopup({
-        type: 'image',
-        gallery: {
-            enabled: true
-        }
-    });
+    //$('.portfolio-img').magnificPopup({
+    //    type: 'image',
+    //    gallery: {
+    //        enabled: true
+    //    }
+    //});
 
     /*---------------------------------------------*
      * STICKY scroll
